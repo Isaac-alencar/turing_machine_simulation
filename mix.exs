@@ -1,9 +1,9 @@
-defmodule TurinMachine.MixProject do
+defmodule TuringMachine.MixProject do
   use Mix.Project
 
   def project do
     [
-      app: :turin_machine,
+      app: :turing_machine,
       version: "0.1.0",
       elixir: "~> 1.16",
       start_permanent: Mix.env() == :prod,

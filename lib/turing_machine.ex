@@ -1,4 +1,4 @@
-defmodule TurinMachine do
+defmodule TuringMachine do
   def add_one(tape) do
     if is_valid_input(tape) do
       {new_tape, _state} = read_tape(tape, length(tape) - 1, :q0)

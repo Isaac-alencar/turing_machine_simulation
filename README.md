@@ -1,24 +1,15 @@
 # TurinMachine
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `turin_machine` to your list of dependencies in `mix.exs`:
-
 ```elixir
 def deps do
   [
-    {:turin_machine, "~> 0.1.0"}
+    {:turing_machine, "~> 0.1.0"}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/turin_machine>.
-
-
 # Turing Machine's Computer Science Significance
+
 The Turing Machine is crucial to grounding computer science because it provides a theoretical framework for understanding computation, its limitations, and its universality. Here are some key reasons:
 
 Universality: Turing Machines can simulate the behavior of any algorithm, making them a universal model of computation. This means that any computation that can be performed by a Turing Machine can also be performed by a real computer.
@@ -32,6 +23,7 @@ Influence on Algorithm Design: The Turing Machine’s simplicity and universalit
 Computability Theory: The Turing Machine has led to the development of computability theory, which studies the fundamental properties of computable functions and sets. This theory has applications in areas like cryptography, programming languages, and artificial intelligence.
 
 Foundational for Computer Science: The Turing Machine’s concepts, such as tape, head, and states, have been incorporated into various computer science subfields, including:
+
 - Formal language theory
 - Automata theory
 - Complexity theory
