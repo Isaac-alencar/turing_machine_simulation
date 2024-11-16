@@ -1,4 +1,4 @@
-# TurinMachine
+# TuringMachine
 
 ```elixir
 def deps do
